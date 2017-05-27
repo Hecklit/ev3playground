@@ -8,3 +8,7 @@ a.run_timed(time_sp=3000, speed_sp=500)
 b.run_timed(time_sp=3000, speed_sp=500)
 a.run_timed(time_sp=3000, speed_sp=-500)
 b.run_timed(time_sp=3000, speed_sp=-500)
+
+ir = InfraredSensor()
+while True:
+    print(ir.value())
